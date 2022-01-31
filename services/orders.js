@@ -378,11 +378,11 @@ const update = async (id, model, context) => {
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'foodappeatoo@gmail.com',
-                    pass: 'redsky@123'
+                    user: 'email',
+                    pass: 'password'
                 }
             });
-            const email = 'foodappeatoo@gmail.com'
+            const email = 'email'
 
             // var elementSkelton;
             var itemElements;
